@@ -22,4 +22,12 @@ const alunos = [
   },
 ];
 
-console.log(alunos);
+const calculoMedia = alunos.map(function (item) {
+  const mediaGeral = item.notas.reduce((acumulador, item) => {
+    return acumulador + item.nota;
+  }, 0);
+  item.mediaGeral = mediaGeral / item.notas.length;
+  return item;
+});
+
+console.log(calculoMedia);
