@@ -8,6 +8,7 @@ const root = createRoot(rootElement);
 
 root.render(
   <StrictMode>
-    <App />
+    <App familia={"Redfield"}/>
+    <App familia={"wesker"}/>
   </StrictMode>
 );
