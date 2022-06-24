@@ -22,6 +22,5 @@ function maiorAnoPassado() {
 }
 
 function anosDecimos() {
-  for (let i = 0; i < anos.length; i++) {}
-  return anosDecimos;
+ 
 }
