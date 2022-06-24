@@ -21,6 +21,4 @@ function maiorAnoPassado() {
   return anosMaiores;
 }
 
-function anosDecimos() {
- 
-}
+function anosDecimos() {}
