@@ -7,8 +7,7 @@ const rootElement = document.getElementById('root');
 const root = createRoot(rootElement);
 
 root.render(
-  <StrictMode>
-    <App familia={"Redfield"}/>
-    <App familia={"wesker"}/>
-  </StrictMode>
+  <div>
+    <App />
+  </div>
 );
