@@ -1,4 +1,4 @@
-export const filmes = [
+export default [
   {
     nome: 'O Senhor do Aneis: A Sociedade do Anel',
     lancamento: 2002,
